@@ -1,1 +1,33 @@
-![Mod26](~/Pictures/Mod26101.png)
+MOD26
+
+Author: Pandu
+
+Description: Cryptography can be easy, do you know what ROT13 is? cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_jdJBFOXJ}
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Step 1: 
+
+Go to: https://gchq.github.io/CyberChef/
+
+
+Step 2: 
+
+Under operations one must first search for ROT13. 
+
+
+Step 3: 
+
+copy "cvpbPGS{arkg_gvzr_V'yy_gel_2_ebhaqf_bs_ebg13_jdJBFOXJ}" into the input box
+
+
+Step 4: 
+
+In the output it should show the picoCTF flag:
+
+picoCTF{next_time_I'll_try_2_rounds_of_rot13_wqWOSBKW}
+
+
+Step 5:
+
+Congradulate yourself for the hardwork you have done! 
