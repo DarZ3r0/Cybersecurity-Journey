@@ -1,0 +1,74 @@
+Python Wrangling 
+
+Author: syreal
+
+Description: Python scripts are invoked kind of like programs in the Terminal... Can you run this Python script using this password to get the flag?
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Step 1: Download all files 
+
+a. "this Python script" 
+b. "this password" 
+c. "the flag"
+
+
+Step 2: Open the script (ende.py file) in another tab or window
+
+
+Step 3: Copy the URL from the ende.py script 
+
+
+Step 4: 
+
+In ones terminal enter: 
+
+wget https://mercury.picoctf.net/static/5c4c0cbfbc149f3b0fc55c26f36ee707/ende.py
+
+
+Step 5: 
+
+Enter in ones terminal:
+
+python3 ende.py
+
+Result: Usage: ende.py (-e/-d) [file]
+
+
+Step 6: 
+
+Next in the terminal enter: 
+
+cat pw.txt
+
+And copy the output. 
+
+
+Step 7: 
+
+Based on previous information from Step 5 it's clear what format must be entered to the terminal to discover if the password works. 
+
+In the terminal enter: 
+
+python3 ende.py -d flag.txt.en
+
+Result: 
+
+Please enter the password: 
+
+
+
+Step 8: Once the code requests a password, paste the value found in the pw.txt file. 
+
+
+
+Step 9: 
+
+As a result of entering the correct password the program should return the flag value
+
+picoCTF{4p0110_1n_7h3_h0us3_192ee2db}
+
+
+
+
+
